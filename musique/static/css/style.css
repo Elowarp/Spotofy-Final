@@ -1,0 +1,259 @@
+@font-face{
+    font-family: "Racing Sans One";
+    src: url("RacingSansOne-Regular.ttf") format(truetype);
+}
+
+body{
+    background-color:#171923;
+}
+
+.header{
+    background-color: #1D202D;
+    backdrop-filter: blur(0px)
+}
+
+.logo{
+    font-family: "Racing Sans One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 81px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #cbb2ab;
+}
+
+.upload-button{
+    font-family: "Racing Sans One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 81px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #cbb2ab;
+}
+.upload-button:hover{
+    text-decoration: none;
+    color: #cbb2ab; 
+}
+
+.search{
+    width: 700px;
+    height: 80px;
+
+    mix-blend-mode: multiply;
+    border-radius: 100px;
+    border-color: transparent;
+    font-family: "Racing Sans One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    background: #C4C4C4;
+}
+.search:focus{
+    outline: none;
+    border-color: #747474;
+}
+::placeholder{
+    color: #ffffff;
+    opacity: 1;
+}
+
+.card-body{
+    margin: auto;
+}
+
+
+.title-card{
+    font-family: "Racing Sans One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+
+    color: #CBB2AB;
+}
+.auteur-card{
+    font-family: "Racing Sans One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0;
+
+    color: rgba(23, 25, 35, 0.75);
+}
+
+.card{
+    width: 350px;
+    height: 400px;
+    background: #C31331;
+    border-radius: 39px;
+    margin-top:3%;
+}
+
+.album-card{
+    font-family: "Racing Sans One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(203, 178, 171, 0.75);
+
+}
+.image-card{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    box-shadow: 1px 2px 4px 3px rgba(0, 0, 0, 0.25);
+}
+.lecteur{
+    cursor: pointer;
+    margin-top: 5%;
+    width: 66px;
+    height: 66px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 50px;
+    background: #F79E1B;
+    margin-right: 0;
+    margin-left: auto;
+}
+.fleche-lecteur{
+    margin-left: 35%;
+    width: 0;
+    height: 0;
+    margin-top: 25%;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 30px solid rgba(196, 196, 196, 0.8);
+    margin-right: 0%;
+}
+.col{
+    margin-right: 5%;
+    margin-left: 1%;
+    max-width: 312px;
+}
+
+.card-body{
+    margin:0;
+    padding:2%;
+}
+
+.error{
+    margin:auto;
+
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 91px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #C31331;
+
+}
+
+.btnIndex{
+    padding-left:1%;
+    padding-right:1%;
+    margin:auto;
+    background: #C4C4C4;
+    border-radius: 10px;
+    font-family: "Racing Sans One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(23, 25, 35, 0.75);
+}
+
+.btnIndex:hover{
+    text-decoration: none;
+    color: rgba(23, 25, 35, 0.75);
+}
+
+.errorText{
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    margin: auto;
+
+    color: #CBB2AB;
+}
+
+.card-large{
+    height: 400px;
+    width: 100%;
+    background-color: #C31331;
+    padding-top: 6%;
+    border-radius: 40px;
+    margin-top:3%;
+}
+
+form{
+    margin: auto;
+}
+
+.musicContent {
+    margin-top: 3%;
+}
+
+.musicName{
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    align-items: center;
+
+    color: #CBB2AB;
+}
+
+.musicAuteur{
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    align-items: center;
+    text-align: center;
+
+    color: rgba(23, 25, 35, 0.75);
+}
+
+audio{
+    width:90%;
+    margin-top: 6%;
+}
